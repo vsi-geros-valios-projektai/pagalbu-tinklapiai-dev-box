@@ -10,6 +10,6 @@ Dev environment for pagalbadaiktais.lt, pagalbadarbais.lt, admin.pagalbadaiktais
 
 The internet connection is required at step 1 (for connecting to github) and step 2 (for wget the newest database dump).
 
-All users have the same password: 123456
+All users (for example: user+7@pagalbadaiktais.dev) have the same password: 123456
 
 Any questions? Feel free to contact.
