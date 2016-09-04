@@ -27,7 +27,7 @@ vagrantfile:
                     - '--verbose'
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
         synced_folder:
-            vflsf_nvh94we0fkpz:
+            vflsf_qgxgixmc5ddt:
                 source: ./pagalbadaiktais.dev
                 target: /home/pagalbadaiktais.dev
                 sync_type: default
@@ -49,7 +49,7 @@ vagrantfile:
                     auto: 'true'
                 owner: www-data
                 group: www-data
-            vflsf_9zdhdbs3j6n4:
+            vflsf_mu4gm4lki47g:
                 source: ./pagalbadarbais.dev
                 target: /home/pagalbadarbais.dev
                 sync_type: default
@@ -71,7 +71,7 @@ vagrantfile:
                     auto: 'true'
                 owner: www-data
                 group: www-data
-            vflsf_7oq8tqu1xf0c:
+            vflsf_yvyl5i8oecpd:
                 source: ./admin.pagalbadaiktais.dev
                 target: /home/admin.pagalbadaiktais.dev
                 sync_type: default
@@ -93,7 +93,7 @@ vagrantfile:
                     auto: 'true'
                 owner: www-data
                 group: www-data
-            vflsf_i5m2zus5dg7a:
+            vflsf_s4uiwlpuis11:
                 source: ./_install
                 target: /home/_install
                 sync_type: default
@@ -115,7 +115,7 @@ vagrantfile:
                     auto: 'true'
                 owner: www-data
                 group: www-data
-            vflsf_m44zmtrw8kds:
+            vflsf_khw9vabg2epa:
                 source: ./_log
                 target: /var/log
                 sync_type: default
@@ -216,7 +216,7 @@ apache:
         - proxy_fcgi
         - rewrite
     vhosts:
-        av_lp0qniyckkhg:
+        av_0e1l38m161mz:
             servername: awesome.dev
             serveraliases:
                 - www.awesome.dev
@@ -233,7 +233,7 @@ apache:
             ssl_protocol: ''
             ssl_cipher: ''
             directories:
-                avd_al3w42q7ppm0:
+                avd_6pbq2s2cgtp3:
                     path: /var/www/awesome
                     options:
                         - Indexes
@@ -245,7 +245,7 @@ apache:
                         - 'all granted'
                     custom_fragment: ''
                     files_match:
-                        avdfm_yoi90l0c4foi:
+                        avdfm_3waqx1puol4s:
                             path: \.php$
                             sethandler: 'proxy:fcgi://127.0.0.1:9000'
                             custom_fragment: ''
@@ -295,7 +295,7 @@ php:
         error_log: /var/log/php-fpm.log
         pid: /var/run/php-fpm.pid
     fpm_pools:
-        phpfp_zihdcq60hwgs:
+        phpfp_jjc6lmdoxdnh:
             ini:
                 prefix: www
                 listen: '127.0.0.1:9000'
@@ -372,15 +372,15 @@ mariadb:
         override_options: {  }
     adminer: 0
     users:
-        mariadbnu_d4xfr0i9pnz7:
+        mariadbnu_mb3s9izvqm6h:
             name: dbuser
             password: '123'
     databases:
-        mariadbnd_59gn0vy5xczc:
+        mariadbnd_b8vezbotjto4:
             name: dbname
             sql: ''
     grants:
-        mariadbng_vjv7tab80xvy:
+        mariadbng_4bim9qn21u42:
             user: dbuser
             table: '*.*'
             privileges:
@@ -393,15 +393,15 @@ mysql:
         override_options: {  }
     adminer: 0
     users:
-        mysqlnu_5med935auok4:
+        mysqlnu_00oejj95x3ei:
             name: pdarbais
             password: pdarbais
     databases:
-        mysqlnd_jknjrf6nh2n6:
+        mysqlnd_k2wk96f4wyhq:
             name: pdarbais
             sql: ''
     grants:
-        mysqlng_h1hneh4sic1y:
+        mysqlng_rlza5yke8t2l:
             user: pdarbais
             table: '*.*'
             privileges:
