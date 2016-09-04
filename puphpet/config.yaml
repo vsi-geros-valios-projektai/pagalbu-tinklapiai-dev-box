@@ -18,7 +18,14 @@ vagrantfile:
                         use_linked_clone: 0
                         check_guest_tools: 0
                         update_guest_tools: 0
-                machines: {  }
+                machines:
+                    vflm_orgm4tsa2i1s:
+                        id: pagalbuwww
+                        hostname: pagalbuwww.puphpet
+                        network:
+                            private_network: 192.168.56.111
+                        memory: '512'
+                        cpus: '1'
         provision:
             puppet:
                 manifests_path: puphpet/puppet/manifests
