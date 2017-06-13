@@ -20,6 +20,6 @@
 #	127.0.0.1       localhost
 #	::1             localhost
 
-192.168.56.111		www.pagalbadaiktais.dev 	pagalbadaiktais.dev
-192.168.56.111		www.pagalbadarbais.dev 		pagalbadarbais.dev
-192.168.56.111		admin.pagalbadaiktais.dev
+192.168.56.111		www.aukokdaiktus.dev 		aukokdaiktus.dev
+192.168.56.111		www.aukoklaika.dev 			aukoklaika.dev
+192.168.56.111		admin.aukokdaiktus.dev
