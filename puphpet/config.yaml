@@ -361,7 +361,7 @@ mariadb:
 mysql:
     install: '1'
     settings:
-        version: '5.5'
+        version: '5.6'
         root_password: '123'
         override_options: {  }
     users:
@@ -371,7 +371,7 @@ mysql:
     databases:
         mysqlnd_w7v6wla9lu0p:
             name: pdarbais
-            sql: ''
+            sql: /home/_install/db/dev-backup-latest.sql
     grants:
         mysqlng_wicjfw25cujw:
             user: pdarbais
