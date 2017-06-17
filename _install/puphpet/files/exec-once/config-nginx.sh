@@ -4,6 +4,10 @@ cp /vagrant/_install/nginx/aukoklaika.dev.conf /etc/nginx/sites-enabled/aukoklai
 cp /vagrant/_install/nginx/admin.aukokdaiktus.dev.conf /etc/nginx/sites-enabled/admin.aukokdaiktus.dev.conf
 service nginx restart
 
+rm -f /home/admin.aukokdaiktus.dev/httpdocs/.gitignore
+rm -f /home/aukokdaiktus.dev/httpdocs/.gitignore
+rm -f /home/aukoklaika.dev/httpdocs/.gitignore
+
 yum -y update
 
 #rm -f /home/aukokdaiktus.dev/httpdocs/.gitignore
