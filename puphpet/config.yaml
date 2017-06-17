@@ -102,28 +102,6 @@ vagrantfile:
                         - .vagrant/
                         - .git/
                     auto: 'true'
-            vflsf_89i6qae0vn1p:
-                owner: www-data
-                group: www-data
-                source: ./_install
-                target: /home/_install
-                sync_type: default
-                smb:
-                    smb_host: ''
-                    smb_username: ''
-                    smb_password: ''
-                    mount_options:
-                        dir_mode: '0775'
-                        file_mode: '0664'
-                rsync:
-                    args:
-                        - '--verbose'
-                        - '--archive'
-                        - '-z'
-                    exclude:
-                        - .vagrant/
-                        - .git/
-                    auto: 'true'
         usable_port_range:
             start: 10200
             stop: 10500
@@ -157,7 +135,6 @@ users_groups:
     install: '1'
     groups: {  }
     users:
-        - '_install:www-data'
         - 'aukokdaiktus.dev:www-data'
         - 'aukoklaika.dev:www-data'
         - 'admin.aukokdaiktus.dev:www-data'
@@ -370,7 +347,7 @@ mysql:
     databases:
         mysqlnd_w7v6wla9lu0p:
             name: pdarbais
-            sql: /home/_install/db/dev-backup-latest.sql
+            sql: /vagrant/_install/db/dev-backup-latest.sql
     grants:
         mysqlng_wicjfw25cujw:
             user: pdarbais
