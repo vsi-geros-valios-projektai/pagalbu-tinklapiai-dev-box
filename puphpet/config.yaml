@@ -19,7 +19,7 @@ vagrantfile:
                         check_guest_tools: 0
                         update_guest_tools: 0
                 machines:
-                    vflm_t8l2o8vxmt4e:
+                    vflm_5bunszxo0bgs:
                         id: pagalbuwww
                         hostname: pagalbuwww.puphpet
                         network:
@@ -36,11 +36,11 @@ vagrantfile:
                     - '--verbose'
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
         synced_folder:
-            vflsf_9miivwscnyk2:
+            vflsf_q0um5t9fp9gx:
                 owner: www-data
                 group: www-data
-                source: ./pagalbadaiktais.dev
-                target: /home/pagalbadaiktais.dev
+                source: ./aukokdaiktus.dev
+                target: /home/aukokdaiktus.dev
                 sync_type: default
                 smb:
                     smb_host: ''
@@ -58,11 +58,11 @@ vagrantfile:
                         - .vagrant/
                         - .git/
                     auto: 'true'
-            vflsf_p8328rauw1fe:
+            vflsf_hbry09wlm95c:
                 owner: www-data
                 group: www-data
-                source: ./pagalbadarbais.dev
-                target: /home/pagalbadarbais.dev
+                source: ./aukoklaika.dev
+                target: /home/aukoklaika.dev
                 sync_type: default
                 smb:
                     smb_host: ''
@@ -80,11 +80,11 @@ vagrantfile:
                         - .vagrant/
                         - .git/
                     auto: 'true'
-            vflsf_huaidtro4t43:
+            vflsf_ibq9sa80i5yd:
                 owner: www-data
                 group: www-data
-                source: ./admin.pagalbadaiktais.dev
-                target: /home/admin.pagalbadaiktais.dev
+                source: ./admin.aukokdaiktus.dev
+                target: /home/admin.aukokdaiktus.dev
                 sync_type: default
                 smb:
                     smb_host: ''
@@ -102,33 +102,11 @@ vagrantfile:
                         - .vagrant/
                         - .git/
                     auto: 'true'
-            vflsf_h3afxxgbrqzz:
+            vflsf_89i6qae0vn1p:
                 owner: www-data
                 group: www-data
                 source: ./_install
                 target: /home/_install
-                sync_type: default
-                smb:
-                    smb_host: ''
-                    smb_username: ''
-                    smb_password: ''
-                    mount_options:
-                        dir_mode: '0775'
-                        file_mode: '0664'
-                rsync:
-                    args:
-                        - '--verbose'
-                        - '--archive'
-                        - '-z'
-                    exclude:
-                        - .vagrant/
-                        - .git/
-                    auto: 'true'
-            vflsf_5uuqovz9cc3g:
-                owner: www-data
-                group: www-data
-                source: ./_log
-                target: /var/log
                 sync_type: default
                 smb:
                     smb_host: ''
@@ -180,9 +158,9 @@ users_groups:
     groups: {  }
     users:
         - '_install:www-data'
-        - 'pagalbadaiktais.dev:www-data'
-        - 'pagalbadarbais.dev:www-data'
-        - 'admin.pagalbadaiktais.dev:www-data'
+        - 'aukokdaiktus.dev:www-data'
+        - 'aukoklaika.dev:www-data'
+        - 'admin.aukokdaiktus.dev:www-data'
 locale:
     install: '1'
     settings:
@@ -233,7 +211,7 @@ apache:
         - proxy_fcgi
         - rewrite
     vhosts:
-        av_bhp0qgt8zxwe:
+        av_282u1ldepvew:
             servername: awesome.dev
             serveraliases:
                 - www.awesome.dev
@@ -248,7 +226,7 @@ apache:
             ssl_protocol: ''
             ssl_cipher: ''
             directories:
-                avd_0xzvs094s5l5:
+                avd_0vrsxwsyy3px:
                     path: /var/www/awesome
                     directoryindex: ''
                     options:
@@ -306,7 +284,7 @@ php:
         error_log: /var/log/php-fpm.log
         pid: /var/run/php-fpm.pid
     fpm_pools:
-        phpfp_9ojy5vw7js0i:
+        phpfp_65k9sg6q8wkl:
             ini:
                 prefix: www
                 listen: '127.0.0.1:9000'
@@ -367,15 +345,15 @@ mariadb:
         root_password: '123'
         override_options: {  }
     users:
-        mariadbnu_5ndw3ykguev5:
+        mariadbnu_gj2t5m4h2chh:
             name: dbuser
             password: '123'
     databases:
-        mariadbnd_se6m1aybb35h:
+        mariadbnd_7gr8vb9t108y:
             name: dbname
             sql: ''
     grants:
-        mariadbng_iabp8k8g7i56:
+        mariadbng_tcd97s8kx9gb:
             user: dbuser
             table: '*.*'
             privileges:
@@ -387,15 +365,15 @@ mysql:
         root_password: '123'
         override_options: {  }
     users:
-        mysqlnu_7dtogxvu2vdc:
+        mysqlnu_ncosqmif69dv:
             name: pdarbais
             password: pdarbais
     databases:
-        mysqlnd_x8fjx46traa1:
+        mysqlnd_w7v6wla9lu0p:
             name: pdarbais
             sql: ''
     grants:
-        mysqlng_hhbjrsjyirmr:
+        mysqlng_wicjfw25cujw:
             user: pdarbais
             table: '*.*'
             privileges:
