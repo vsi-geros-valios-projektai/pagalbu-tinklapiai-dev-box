@@ -9,10 +9,9 @@ Dev environment for aukokdaiktus.lt, aukoklaika.lt, admin.aukokdaiktus.lt projec
 4. Do `sudo /vagrant/_install/puphpet/files/exec-once/config-nginx.sh`  
 5. Copy content of `_install\hosts\hosts` (one of many files you just pulled from the repository in step 1) into host file of your own OS. For example, if Windows 10 then copy to `C:\Windows\System32\drivers\etc\hosts`. Other OS may have different host file location.  
 6. Clone repositories of each project (aukokdaiktus.dev, aukoklaika.dev, admin.aukokdaiktus.dev) into the directory of each project:  
-- `admin.aukokdaiktus.dev\httpdocs`  
-- `aukokdaiktus.dev\httpdocs`  
-- `aukokdaiktus.dev\httpdocs`  
-- `aukoklaika.dev\httpdocs`  
+- `admin.aukokdaiktus.dev\httpdocs` : ssh://git@mano.gerasfabrikas.lt/source/admin.aukokdaiktus.lt.git  
+- `aukokdaiktus.dev\httpdocs` : `ssh://git@mano.gerasfabrikas.lt/source/aukokdaiktus.lt.git`  
+- `aukoklaika.dev\httpdocs` : `ssh://git@mano.gerasfabrikas.lt/source/aukoklaika.lt.git`  
 7. Type url and open any of projects: aukokdaiktus.dev , or aukoklaika.dev , or admin.aukokdaiktus.dev  
 
 
