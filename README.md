@@ -21,6 +21,6 @@ For more info on the step: [http://mano.gerasfabrikas.lt/w/programavimas_aukok*_
 
 The internet connection is required at step 1 (for connecting to github), step 2 (downloading files for a box installation), and step 4 (for downloading updates).
 
-All users (for example: user+7@pagalbadaiktais.dev) have the same password: 123456
+All users (for example: user+85@aukokdaiktus.dev) have the same password: 123456
 
 Any questions? Feel free to contact.
