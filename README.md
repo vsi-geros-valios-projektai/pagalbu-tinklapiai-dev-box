@@ -15,6 +15,7 @@ into `admin.aukokdaiktus.dev\httpdocs`
 into `aukokdaiktus.dev\httpdocs`  
 - `ssh://git@mano.gerasfabrikas.lt/source/aukoklaika.lt.git`  
 into `aukoklaika.dev\httpdocs`  
+For more info on the step: [http://mano.gerasfabrikas.lt/w/programavimas_aukok*_projektuose/](http://mano.gerasfabrikas.lt/w/programavimas_aukok*_projektuose/)  
 7. Type url and open any of projects: aukokdaiktus.dev , or aukoklaika.dev , or admin.aukokdaiktus.dev  
 
 
